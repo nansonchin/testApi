@@ -13,12 +13,13 @@
         <p data-target="getCourse"></p>
 
         <section class="recommend">
-            <h1>Others</h1>
-            <h3 data-target="getOther"></h3>
+            <h4>Others</h4>
+            <p data-target="getOther"></p>
         </section>
 
         <section class="POST">
-            <form id="form" method="POST">
+            <h1>Post Data</h1>
+            <form id="postform" method="POST">
                 <label>Name</label>
                 <input type="text" name="name" id="name"/><br>
                 
@@ -34,6 +35,19 @@
                 <button type="submit">Submit</button>
             </form>
             
+        </section>
+
+        <section class="get">
+
+            <h1>Get Details</h1>
+            <form id="getform" method="Post">
+                <label>Id</label>
+                <input type="text" name="gid" id="gid" required/>
+                <button type="submit">Get</button><br>
+
+                <label data-target="get-target"></label>
+            
+            </form>
         </section>
     </body>
     <script src="./javascript.js"></script>
