@@ -1,0 +1,67 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "John",
+      "location": "india",
+      "phone": "1234567890",
+      "courses": [
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "JohnW",
+      "location": "india",
+      "phone": "0987654321",
+      "courses": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "JohnX",
+      "location": "india",
+      "phone": "445678900",
+      "courses": [
+        "PHP",
+        "Pyhton"
+      ]
+    },
+    {
+      "name": "Scott",
+      "location": "india",
+      "phone": "22334456",
+      "courses": [
+        "Java",
+        "Ruby"
+      ],
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "name": {},
+      "location": {},
+      "phone": {},
+      "courses": [
+        {},
+        {}
+      ],
+      "id": 6
+    },
+    {
+      "name": "JohnWeak",
+      "location": "Jujutsu",
+      "phone": "012333333",
+      "courses": [
+        "HTML",
+        "ANGULAR"
+      ],
+      "id": 7
+    }
+  ]
+}
